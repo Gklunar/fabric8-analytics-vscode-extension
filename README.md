@@ -37,7 +37,7 @@ In future releases, Red Hat plans to support other programming languages.
 - For Golang projects, analyzing a `go.mod` file, you must have the `go` binary in your system’s `PATH` environment.
 - For Python projects, analyzing a `requirements.txt` file, you must have the `python3/pip3` or `python/pip` binaries in your system’s `PATH` environment.
 - For Gradle projects, analyzing a `build.gradle` file, you must have the `gradle` binary in your system's `PATH` environment.
-- For base images in a `Dockerfile`.
+- For base images in a `Dockerfile` or `Containerfile`, you must have `Java version 20` or later.
 
 <br >**IMPORTANT:** 
 <br >Visual Studio Code by default executes binaries directly in a terminal found in your system's `PATH` environment.
